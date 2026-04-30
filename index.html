@@ -3,199 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ClearStack Glass Warehouse</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Abdulla Khodjimatov Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container top-bar">
-      <div>
-        <p class="eyebrow">Wholesale Glass Supply</p>
-        <h1>ClearStack Glass Warehouse</h1>
-      </div>
-      <nav class="nav">
-        <a href="#products">Products</a>
-        <a href="#about">About</a>
-        <a href="#service">Service</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+
+  <aside>
+    <h1>Abdulla Khodjimatov</h1>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </aside>
 
   <main>
-    <section class="hero">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <h2>Bulk glass orders for stores, builders, and contractors.</h2>
-          <p>
-            We supply warehouse quantities of tempered glass, mirrors, table tops,
-            shower panels, and custom-cut sheets with steady pricing and reliable delivery.
-          </p>
-          <div class="hero-actions">
-            <a class="button" href="#contact">Request a Quote</a>
-            <a class="button button-light" href="#products">View Products</a>
+
+    <!-- ABOUT -->
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <img src="files/profile.png" alt="Profile Picture" class="about-img">
+
+      <p>
+        I am a Computer Science student at the University of South Carolina with a strong foundation in software development and problem-solving. 
+        I enjoy building practical applications and working on projects that combine technology with real-world impact.
+      </p>
+
+      <p>
+        I have experience in both technical and customer-facing roles, which allows me to communicate ideas clearly and adapt quickly in team environments.
+      </p>
+
+      <a href="files/Abdulla_Resume.pdf" target="_blank" class="resume-btn">
+        View Resume
+      </a>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+
+      <p><strong>Programming:</strong> Python, C, JavaScript, MATLAB</p>
+      <p><strong>Web:</strong> HTML, CSS, React, Angular</p>
+      <p><strong>Tools:</strong> GitHub, Fusion360, MATLAB</p>
+      <p><strong>Other:</strong> Communication, Sales, Analytical Thinking</p>
+
+      <h3>Languages</h3>
+      <ul>
+        <li>English – Full Professional</li>
+        <li>Russian – Full Professional</li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-container">
+
+        <div class="project-box card">
+          <a href="https://github.com/Abdullo-0605/glass-seller" target="_blank">
+            <img src="files/project1.png" alt="Winaris Glass">
+          </a>
+          <div class="project-text">
+            <h3>Winaris Glass Platform</h3>
+            <p>
+              Full-stack wholesale platform for glass products, handling both frontend and backend development,
+              including order management and scalability.
+            </p>
           </div>
         </div>
 
-        <div class="hero-card">
-          <h3>Warehouse Highlights</h3>
-          <ul>
-            <li>Bulk orders for commercial clients</li>
-            <li>Custom sizes available</li>
-            <li>Pickup and regional delivery</li>
-            <li>Fast response on pricing requests</li>
-          </ul>
+        <div class="project-box card">
+          <a href="https://github.com/Abdullo-0605/smartcomm-website" target="_blank">
+            <img src="files/project2.png" alt="SmartComm">
+          </a>
+          <div class="project-text">
+            <h3>SmartComm Website</h3>
+            <p>
+              Web application for an electrical services company with scheduling, cost estimation, 
+              and OTP/email reminder features.
+            </p>
+          </div>
         </div>
+
       </div>
     </section>
 
-    <section class="section" id="products">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Main Inventory</p>
-          <h2>Products we keep moving every week</h2>
-        </div>
+    <!-- CONTACT -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
 
-        <div class="product-grid">
-          <article class="card">
-            <h3>Tempered Glass</h3>
-            <p>Strong glass sheets for doors, railings, store fronts, and commercial interiors.</p>
-          </article>
+      <ul class="contact-list">
+        <li><strong>GitHub:</strong> 
+          <a href="https://github.com/Abdullo-0605" target="_blank">
+            github.com/Abdullo-0605
+          </a>
+        </li>
 
-          <article class="card">
-            <h3>Mirror Panels</h3>
-            <p>Standard and custom mirror pieces for gyms, homes, retail, and design projects.</p>
-          </article>
+        <li><strong>Email:</strong> 
+          <a href="mailto:your_email@email.com">
+            your_email@email.com
+          </a>
+        </li>
+      </ul>
 
-          <article class="card">
-            <h3>Shower Glass</h3>
-            <p>Clear and frosted panels prepared for installers working on residential and hotel jobs.</p>
-          </article>
-
-          <article class="card">
-            <h3>Table Tops</h3>
-            <p>Polished glass tops in bulk for furniture stores, offices, and restaurant suppliers.</p>
-          </article>
-        </div>
-      </div>
     </section>
 
-    <section class="section section-alt" id="about">
-      <div class="container split-layout">
-        <div>
-          <p class="eyebrow">About Us</p>
-          <h2>Built like a working warehouse, not just an online catalog.</h2>
-          <p>
-            ClearStack Glass Warehouse is focused on simple ordering, dependable stock,
-            and clear communication. Our customers include local glass shops, interior
-            contractors, building teams, and resellers who need materials on time.
-          </p>
-        </div>
-
-        <div class="info-box">
-          <p><strong>Location:</strong> Columbia, South Carolina</p>
-          <p><strong>Hours:</strong> Monday to Friday, 8:00 AM - 5:00 PM</p>
-          <p><strong>Orders:</strong> Wholesale only</p>
-          <p><strong>Minimums:</strong> Based on product type and cut size</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="service">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Why Buyers Choose Us</p>
-          <h2>Simple service that works for repeat business</h2>
-        </div>
-
-        <div class="service-grid">
-          <div class="service-item">
-            <h3>Consistent Supply</h3>
-            <p>We focus on core wholesale products so buyers can reorder without surprises.</p>
-          </div>
-
-          <div class="service-item">
-            <h3>Clear Pricing</h3>
-            <p>Quotes are prepared based on size, quantity, finish, and delivery needs.</p>
-          </div>
-
-          <div class="service-item">
-            <h3>Practical Support</h3>
-            <p>We help customers choose the right glass type for store, office, and building jobs.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="prototype">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Paper Prototype</p>
-          <h2>Planning materials for this warehouse website</h2>
-          <p class="section-text">
-            This prototype is based on customer research and an affinity diagram created for the
-            wholesale glass seller project.
-          </p>
-        </div>
-
-        <div class="prototype-grid">
-          <div class="prototype-image-box">
-            <img
-              src="images/Affinity Diagram Website Needs for a Wholesale Glass Seller.png"
-              alt="Affinity diagram showing website needs for a wholesale glass seller"
-            >
-          </div>
-
-          <div class="prototype-links">
-            <h3>Project Files</h3>
-            <p><a href="files/Potential-Customers.pdf" target="_blank">Open Potential Customers PDF</a></p>
-            <p><a href="files/Affinity Diagram Website Needs for a Wholesale Glass Seller.pdf" target="_blank">Open Affinity Diagram PDF</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="tasks">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">User Testing Tasks</p>
-          <h2>3 tasks for a potential customer to perform next week</h2>
-        </div>
-
-        <div class="task-list">
-          <div class="task-card">
-            <h3>Task 1</h3>
-            <p>Find tempered glass on the website and decide whether it fits a commercial storefront order.</p>
-          </div>
-
-          <div class="task-card">
-            <h3>Task 2</h3>
-            <p>Use the site to locate quote information for a custom shower glass order and identify how to contact the warehouse.</p>
-          </div>
-
-          <div class="task-card">
-            <h3>Task 3</h3>
-            <p>Check whether pickup or delivery is available and find the warehouse location and business hours.</p>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
-  <footer class="site-footer" id="contact">
-    <div class="container footer-content">
-      <div>
-        <p class="eyebrow">Contact</p>
-        <h2>Need a wholesale quote?</h2>
-        <p>Email us with your sizes, quantity, and delivery city, and we will get back to you.</p>
-      </div>
-
-      <div class="contact-box">
-        <p><strong>Email:</strong> sales@clearstackglass.com</p>
-        <p><strong>Phone:</strong> (803) 555-0148</p>
-        <p><strong>Warehouse:</strong> 1450 Industrial Park Drive, Columbia, SC</p>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>
